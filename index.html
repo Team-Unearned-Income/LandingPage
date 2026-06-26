@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>노크인 - 나와 맞는 방과 룸메이트를 함께 찾다</title>
+    <meta
+      name="description"
+      content="생활패턴과 신뢰를 기반으로 나와 맞는 방과 룸메이트를 함께 찾아드려요. 궁합 점수, 신원 인증 배지, 전국 서비스."
+    />
+    <meta
+      name="keywords"
+      content="룸메이트, 룸메이트 매칭, 방 구하기, 노크인, knockin, 생활패턴 매칭, 신원인증"
+    />
+    <meta name="author" content="Knock-in" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#5046e4" />
+    <meta name="application-name" content="노크인" />
+    <link
+      rel="canonical"
+      href="https://team-unearned-income.github.io/LandingPage/"
+    />
+
+    <!-- OG -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="노크인" />
+    <meta
+      property="og:url"
+      content="https://team-unearned-income.github.io/LandingPage/"
+    />
+    <meta
+      property="og:title"
+      content="노크인 - 나와 맞는 방과 룸메이트를 함께 찾다"
+    />
+    <meta
+      property="og:description"
+      content="생활패턴과 신뢰를 기반으로 나와 맞는 방과 룸메이트를 함께 찾아드려요."
+    />
+    <meta
+      property="og:image"
+      content="https://team-unearned-income.github.io/LandingPage/assets/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="노크인 - 생활패턴과 신뢰 기반 룸메이트 매칭 앱"
+    />
+    <meta property="og:locale" content="ko_KR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="노크인 - 나와 맞는 방과 룸메이트를 함께 찾다"
+    />
+    <meta
+      name="twitter:description"
+      content="생활패턴과 신뢰를 기반으로 나와 맞는 방과 룸메이트를 함께 찾아드려요."
+    />
+    <meta
+      name="twitter:image"
+      content="https://team-unearned-income.github.io/LandingPage/assets/og-image.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="노크인 - 생활패턴과 신뢰 기반 룸메이트 매칭 앱"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+
+    <!-- Tabler Icons CDN -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://team-unearned-income.github.io/LandingPage/#organization",
+            "name": "Knock-in",
+            "alternateName": "노크인",
+            "url": "https://team-unearned-income.github.io/LandingPage/",
+            "logo": "https://team-unearned-income.github.io/LandingPage/assets/logo.svg"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://team-unearned-income.github.io/LandingPage/#app",
+            "name": "노크인",
+            "alternateName": "Knock-in",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "iOS, Android",
+            "description": "생활패턴과 신뢰를 기반으로 나와 맞는 방과 룸메이트를 함께 찾는 룸메이트 매칭 앱입니다.",
+            "url": "https://team-unearned-income.github.io/LandingPage/",
+            "publisher": {
+              "@id": "https://team-unearned-income.github.io/LandingPage/#organization"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW",
+              "availability": "https://schema.org/PreOrder"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://team-unearned-income.github.io/LandingPage/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "노크인은 어떤 서비스인가요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "노크인은 생활패턴과 신뢰 정보를 기반으로 나와 맞는 방과 룸메이트를 함께 찾을 수 있는 매칭 앱입니다. 궁합 점수와 신원 인증으로 입주 전 과정을 지원합니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "어디서 서비스를 이용할 수 있나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "모바일 앱 기반 서비스로 전국 어디서나 이용할 수 있으며 iOS와 Android를 지원할 예정입니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "방이 없어도 이용할 수 있나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "방이 없어도 이용할 수 있습니다. 방을 구하는 사용자는 룸메이트 매칭 카드로 노출되고, 방을 가진 사용자는 방 게시글도 함께 등록할 수 있습니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "개인정보는 안전하게 보호되나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "개인 연락처나 신원 정보는 상대방에게 공개되지 않습니다. 매칭 후 인앱 채팅으로 소통하며 직접 교환 여부는 본인이 결정합니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "궁합 점수는 어떻게 계산되나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "취침 시간, 청결도, 소음 민감도, 흡연 여부, 반려동물 등 생활패턴 항목을 분석해 0~100점으로 표시합니다."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "신원 인증은 어떻게 하나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "학교 이메일 또는 회사 이메일로 인증할 수 있으며 인증 완료 시 프로필에 배지가 표시됩니다."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <div class="nav-logo">
+        <svg
+          width="36"
+          height="36"
+          viewBox="0 0 162 162"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <path
+            d="M17.1245 133.961V60.0702C17.1245 57.1839 18.3716 54.4384 20.5452 52.5395L74.1355 5.71961C77.8898 2.4396 83.4865 2.42581 87.257 5.68728L141.418 52.5369C143.613 54.4364 144.875 57.1965 144.875 60.1V133.961C144.875 139.484 140.398 143.961 134.875 143.961H27.1245C21.6017 143.961 17.1245 139.484 17.1245 133.961Z"
+            fill="#256EF4"
+          />
+          <path
+            d="M80.9421 65.2225C91.2607 65.2226 99.6257 73.4649 99.6257 83.6317C99.6256 90.3984 95.919 96.3109 90.3982 99.5096L99.7419 144.15H62.8416L71.7322 99.6503C66.0755 96.4862 62.2587 90.4986 62.2585 83.6317C62.2585 73.4649 70.6235 65.2225 80.9421 65.2225Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+      <a href="#cta" class="nav-cta">앱 다운로드</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-badge">
+        <i class="ti ti-sparkles" aria-hidden="true"></i>
+        노크인에서 시작하는 룸메이트 매칭
+      </div>
+      <h1>방도 사람도,<br /><em>딱 맞는 곳</em>에서 시작해요</h1>
+      <p class="hero-sub">
+        생활패턴과 신뢰를 기반으로<br />나와 맞는 방과 룸메이트를 함께
+        찾아드려요
+      </p>
+      <div class="hero-actions">
+        <a href="#cta" class="btn-primary">
+          <i class="ti ti-download" aria-hidden="true"></i> 지금 시작하기
+        </a>
+        <a href="#features" class="btn-outline">기능 살펴보기</a>
+      </div>
+
+      <!-- Phone mockups -->
+      <div class="hero-phones" aria-hidden="true">
+        <!-- 방 탐색 -->
+        <div class="phone-mockup">
+          <div class="phone-screen phone-art mini-room-art">
+            <div class="mini-status">9:41</div>
+            <div class="art-title">방 살피기</div>
+            <div class="art-room-scene">
+              <span class="art-window"></span>
+              <span class="art-bed"></span>
+              <span class="art-plant"></span>
+              <span class="art-rug"></span>
+            </div>
+            <div class="art-caption-card">
+              <strong>햇살 좋은 투룸</strong>
+              <span>마포구 · 입주 가능</span>
+            </div>
+          </div>
+        </div>
+        <!-- 룸메이트 매칭 -->
+        <div class="phone-mockup main">
+          <div class="phone-screen phone-art mini-match-art">
+            <div class="mini-status">9:41</div>
+            <div class="art-title">룸메이트 궁합</div>
+            <div class="art-match-stage">
+              <span class="art-person one">이</span>
+              <span class="art-link"></span>
+              <span class="art-person two">나</span>
+              <span class="art-heart"><i class="ti ti-heart-filled" aria-hidden="true"></i></span>
+            </div>
+            <div class="art-score-card">
+              <strong>91점</strong>
+              <span>생활패턴이 잘 맞아요</span>
+              <b></b>
+            </div>
+          </div>
+        </div>
+        <!-- 채팅 -->
+        <div class="phone-mockup">
+          <div class="phone-screen phone-art mini-chat-art">
+            <div class="mini-status">9:41</div>
+            <div class="art-chat-head">
+              <span class="art-person small">이</span>
+              <strong>대화가 열렸어요</strong>
+            </div>
+            <div class="art-bubble left"></div>
+            <div class="art-bubble right"></div>
+            <div class="art-bubble left short"></div>
+            <div class="art-confirm-card">
+              <i class="ti ti-home-heart" aria-hidden="true"></i>
+              <span>룸메이트 확정</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section section-alt" id="features">
+      <div class="section-label">핵심 기능</div>
+      <div class="section-title">이런 게 달라요</div>
+      <p class="section-sub">
+        단순히 방만 소개하는 게 아니에요. 같이 살아도 되는 사람인지를 먼저
+        확인합니다.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="ti ti-heart-handshake" aria-hidden="true"></i>
+          </div>
+          <h3 class="feature-title">생활패턴 궁합 점수</h3>
+          <p class="feature-desc">
+            취침 시간, 청결도, 소음 민감도 등을 분석해 0~100점 궁합 점수로 딱
+            맞는 사람을 찾아줘요
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="ti ti-shield-check" aria-hidden="true"></i>
+          </div>
+          <h3 class="feature-title">신원 인증 배지</h3>
+          <p class="feature-desc">
+            학교 이메일, 회사 이메일 인증으로 신뢰할 수 있는 룸메이트를
+            확인하세요
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="ti ti-home" aria-hidden="true"></i>
+          </div>
+          <h3 class="feature-title">방 &amp; 룸메이트 동시 탐색</h3>
+          <p class="feature-desc">
+            방이 있어도, 없어도 괜찮아요. 방 게시글과 룸메이트 매칭을 한 앱에서
+            모두 찾을 수 있어요
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section class="section" id="screenshots">
+      <div class="section-label">앱 미리보기</div>
+      <div class="section-title">직접 눈으로 확인해보세요</div>
+      <p class="section-sub">
+        가입부터 매칭까지, 노크인의 모든 흐름을 미리 살펴볼 수 있어요
+      </p>
+      <div class="screenshots-grid" aria-hidden="true">
+        <!-- 프로필 설정 -->
+        <div class="ss-item">
+          <div class="ss-phone">
+            <div class="ss-content ss-art-screen profile-art-screen">
+              <div class="ss-status">9:41</div>
+              <div class="art-page-title">나의 생활패턴</div>
+              <div class="profile-orbit">
+                <span class="art-person large">나</span>
+                <b class="orbit-chip sleep">자정 취침</b>
+                <b class="orbit-chip clean">청결 보통</b>
+                <b class="orbit-chip quiet">소음 예민</b>
+              </div>
+              <div class="art-slider-stack">
+                <span style="--w: 62%"></span>
+                <span style="--w: 48%"></span>
+                <span style="--w: 74%"></span>
+              </div>
+            </div>
+          </div>
+          <span class="ss-label">프로필 설정</span>
+        </div>
+
+        <!-- 방 살피기 -->
+        <div class="ss-item">
+          <div class="ss-phone">
+            <div class="ss-content ss-art-screen room-art-screen">
+              <div class="ss-status">9:41 <i class="ti ti-bell" aria-hidden="true"></i></div>
+              <div class="art-page-title">방 살피기</div>
+              <div class="big-room-illustration">
+                <span class="art-window"></span>
+                <span class="art-bed"></span>
+                <span class="art-plant"></span>
+                <span class="art-rug"></span>
+                <span class="art-lamp"></span>
+              </div>
+              <div class="art-caption-card wide">
+                <strong>신촌역 근처 햇살 좋은 방</strong>
+                <span>월세 55만 · 즉시 입주</span>
+              </div>
+            </div>
+          </div>
+          <span class="ss-label">방 살피기</span>
+        </div>
+
+        <!-- 룸메이트 매칭 -->
+        <div class="ss-item">
+          <div class="ss-phone">
+            <div class="ss-content ss-art-screen match-art-screen">
+              <div class="ss-status">9:41 <i class="ti ti-bell" aria-hidden="true"></i></div>
+              <div class="art-page-title">룸메이트 매칭</div>
+              <div class="big-match-illustration">
+                <span class="art-person one">이</span>
+                <span class="art-person two">나</span>
+                <span class="art-heart big"><i class="ti ti-heart-filled" aria-hidden="true"></i></span>
+                <b class="art-link"></b>
+              </div>
+              <div class="art-score-card wide">
+                <strong>궁합 91점</strong>
+                <span>수면 시간과 청결 기준이 잘 맞아요</span>
+                <b></b>
+              </div>
+            </div>
+          </div>
+          <span class="ss-label">룸메이트 매칭</span>
+        </div>
+
+        <!-- 채팅 -->
+        <div class="ss-item">
+          <div class="ss-phone">
+            <div class="ss-content ss-art-screen chat-art-screen">
+              <div class="ss-status">9:41</div>
+              <div class="art-page-title">대화가 시작됐어요</div>
+              <div class="big-chat-illustration">
+                <span class="art-person one">이</span>
+                <span class="art-bubble left"></span>
+                <span class="art-bubble right"></span>
+                <span class="art-bubble left short"></span>
+              </div>
+              <div class="art-confirm-card wide">
+                <i class="ti ti-home-heart" aria-hidden="true"></i>
+                <div>
+                  <strong>룸메이트 확정 제안</strong>
+                  <span>대화가 잘 맞다면 매칭을 완료해요</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="ss-label">채팅</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+      <div style="text-align: center">
+        <div class="section-label">자주 묻는 질문</div>
+        <div class="section-title">궁금한 게 있으신가요?</div>
+      </div>
+      <div class="faq-wrap">
+        <div class="faq-item open">
+          <button
+            class="faq-q"
+            type="button"
+            aria-expanded="true"
+            onclick="toggleFaq(this)"
+          >
+            노크인은 어떤 서비스인가요?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            노크인은 생활패턴과 신뢰 정보를 기반으로 나와 맞는 방과 룸메이트를
+            함께 찾을 수 있는 매칭 앱이에요. 단순 게시판이 아니라 궁합 점수·신원
+            인증까지 입주 전 과정을 지원합니다.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button
+            class="faq-q"
+            type="button"
+            aria-expanded="false"
+            onclick="toggleFaq(this)"
+          >
+            어디서 서비스를 이용할 수 있나요?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            모바일 앱 기반 서비스로 전국 어디서나 이용하실 수 있어요. iOS와
+            Android 모두 지원할 예정입니다.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button
+            class="faq-q"
+            type="button"
+            aria-expanded="false"
+            onclick="toggleFaq(this)"
+          >
+            방이 없어도 이용할 수 있나요?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            네, 방이 없어도 괜찮아요. 방을 구하는 분은 룸메이트 매칭 카드로 자동
+            노출되고, 방을 가진 분은 방 게시글도 함께 등록할 수 있어요.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button
+            class="faq-q"
+            type="button"
+            aria-expanded="false"
+            onclick="toggleFaq(this)"
+          >
+            개인정보는 안전하게 보호되나요?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            네, 개인 연락처나 신원 정보는 상대방에게 공개되지 않아요. 매칭 후
+            인앱 채팅으로만 소통하며, 직접 교환 여부는 본인이 결정합니다.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button
+            class="faq-q"
+            type="button"
+            aria-expanded="false"
+            onclick="toggleFaq(this)"
+          >
+            궁합 점수는 어떻게 계산되나요?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            취침 시간, 청결도, 소음 민감도, 흡연 여부, 반려동물 등 생활패턴
+            항목을 가중치 알고리즘으로 분석해 0~100점으로 표시해요. 중요하게
+            보는 조건을 설정하면 해당 항목의 가중치가 높아집니다.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button
+            class="faq-q"
+            type="button"
+            aria-expanded="false"
+            onclick="toggleFaq(this)"
+          >
+            신원 인증은 어떻게 하나요?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            학교 이메일(.ac.kr, .edu 등) 또는 회사 이메일로 인증할 수 있어요.
+            인증 완료 시 프로필에 배지가 표시되어 상대방이 신뢰도를 확인할 수
+            있습니다.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="cta">
+      <h2>곧 노크인에서<br />나에게 맞는 룸메이트를 찾아보세요</h2>
+      <p>앱 출시 후 iOS와 Android에서 만날 수 있어요</p>
+      <div class="store-btns">
+        <button type="button" class="store-btn" disabled>
+          <i class="ti ti-brand-apple" aria-hidden="true"></i> App Store 출시
+          예정
+        </button>
+        <button type="button" class="store-btn" disabled>
+          <i class="ti ti-brand-google-play" aria-hidden="true"></i> Google Play
+          출시 예정
+        </button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="footer-brand-head">
+            <svg
+              width="34"
+              height="34"
+              viewBox="0 0 162 162"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                d="M17.1245 133.961V60.0702C17.1245 57.1839 18.3716 54.4384 20.5452 52.5395L74.1355 5.71961C77.8898 2.4396 83.4865 2.42581 87.257 5.68728L141.418 52.5369C143.613 54.4364 144.875 57.1965 144.875 60.1V133.961C144.875 139.484 140.398 143.961 134.875 143.961H27.1245C21.6017 143.961 17.1245 139.484 17.1245 133.961Z"
+                fill="#256EF4"
+              />
+              <path
+                d="M80.9421 65.2225C91.2607 65.2226 99.6257 73.4649 99.6257 83.6317C99.6256 90.3984 95.919 96.3109 90.3982 99.5096L99.7419 144.15H62.8416L71.7322 99.6503C66.0755 96.4862 62.2587 90.4986 62.2585 83.6317C62.2585 73.4649 70.6235 65.2225 80.9421 65.2225Z"
+                fill="white"
+              />
+            </svg>
+            <strong>노크인</strong>
+          </div>
+          <p>생활패턴과 신뢰를 기반으로 방과 룸메이트를 함께 찾는 매칭 앱</p>
+        </div>
+
+        <div class="footer-links" aria-label="푸터 링크">
+          <a href="#features">핵심 기능</a>
+          <a href="#screenshots">앱 미리보기</a>
+          <a href="#faq">FAQ</a>
+          <a href="#cta">앱 다운로드</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2026 Knock-in. All rights reserved.</span>
+        <span class="footer-copy"
+          >서비스 이용약관 · 개인정보처리방침 · 출시 준비 중</span
+        >
+      </div>
+    </footer>
+
+    <script>
+      function toggleFaq(el) {
+        const item = el.parentElement;
+        const isOpen = item.classList.toggle("open");
+        el.setAttribute("aria-expanded", String(isOpen));
+      }
+    </script>
+  </body>
+</html>

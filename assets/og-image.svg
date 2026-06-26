@@ -1,0 +1,71 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F3F2FF"/>
+      <stop offset="1" stop-color="#E9E6FF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="770" y1="80" x2="1050" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7F7FC"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#5046E4" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="72" y="72" width="1056" height="486" rx="44" fill="#FFFFFF" fill-opacity="0.62" stroke="#DCD9FA"/>
+
+  <g transform="translate(112 104)">
+    <g transform="scale(0.42)">
+      <path d="M17.1245 133.961V60.0702C17.1245 57.1839 18.3716 54.4384 20.5452 52.5395L74.1355 5.71961C77.8898 2.4396 83.4865 2.42581 87.257 5.68728L141.418 52.5369C143.613 54.4364 144.875 57.1965 144.875 60.1V133.961C144.875 139.484 140.398 143.961 134.875 143.961H27.1245C21.6017 143.961 17.1245 139.484 17.1245 133.961Z" fill="#256EF4"/>
+      <path d="M80.9421 65.2225C91.2607 65.2226 99.6257 73.4649 99.6257 83.6317C99.6256 90.3984 95.919 96.3109 90.3982 99.5096L99.7419 144.15H62.8416L71.7322 99.6503C66.0755 96.4862 62.2587 90.4986 62.2585 83.6317C62.2585 73.4649 70.6235 65.2225 80.9421 65.2225Z" fill="white"/>
+    </g>
+    <text x="84" y="42" fill="#020F27" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="34" font-weight="800">Knock-in</text>
+    <text x="84" y="76" fill="#5046E4" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="24" font-weight="700">노크인</text>
+  </g>
+
+  <g transform="translate(112 210)">
+    <rect x="0" y="0" width="258" height="42" rx="21" fill="#EAE8FC"/>
+    <text x="26" y="28" fill="#5046E4" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="20" font-weight="700">룸메이트 매칭의 새로운 기준</text>
+
+    <text x="0" y="122" fill="#1A1A2E" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="64" font-weight="900">방도 사람도,</text>
+    <text x="0" y="198" fill="#5046E4" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="64" font-weight="900">딱 맞는 곳에서 시작해요</text>
+    <text x="0" y="266" fill="#55556A" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="26" font-weight="500">생활패턴과 신뢰를 기반으로 맞는 방과 룸메이트를 찾아드려요.</text>
+
+    <g transform="translate(0 324)">
+      <rect x="0" y="0" width="164" height="48" rx="24" fill="#5046E4"/>
+      <text x="26" y="31" fill="#FFFFFF" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="20" font-weight="800">궁합 점수</text>
+      <rect x="180" y="0" width="172" height="48" rx="24" fill="#FFFFFF" stroke="#DCD9FA"/>
+      <text x="207" y="31" fill="#5046E4" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="20" font-weight="800">신원 인증</text>
+      <rect x="368" y="0" width="214" height="48" rx="24" fill="#FFFFFF" stroke="#DCD9FA"/>
+      <text x="395" y="31" fill="#5046E4" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="20" font-weight="800">방 동시 탐색</text>
+    </g>
+  </g>
+
+  <g transform="translate(780 86)" filter="url(#shadow)">
+    <rect x="0" y="0" width="292" height="458" rx="42" fill="url(#card)" stroke="#DCD9FA" stroke-width="2"/>
+    <rect x="24" y="28" width="244" height="402" rx="28" fill="#FFFFFF"/>
+    <text x="48" y="76" fill="#5046E4" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="20" font-weight="900">룸메이트 매칭</text>
+
+    <g transform="translate(44 108)">
+      <rect x="0" y="0" width="204" height="76" rx="18" fill="#F7F7FC"/>
+      <circle cx="36" cy="38" r="22" fill="#5046E4"/>
+      <text x="72" y="32" fill="#1A1A2E" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="16" font-weight="800">김지은 · 25세</text>
+      <text x="72" y="56" fill="#6B6B80" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="13" font-weight="600">방 있음 · 마포구</text>
+      <text x="162" y="48" fill="#5046E4" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="18" font-weight="900">92%</text>
+    </g>
+    <g transform="translate(44 198)" opacity="0.88">
+      <rect x="0" y="0" width="204" height="76" rx="18" fill="#F7F7FC"/>
+      <circle cx="36" cy="38" r="22" fill="#7B72EA"/>
+      <text x="72" y="32" fill="#1A1A2E" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="16" font-weight="800">박서연 · 24세</text>
+      <text x="72" y="56" fill="#6B6B80" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="13" font-weight="600">방 없음 · 강남구</text>
+      <text x="162" y="48" fill="#5046E4" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="18" font-weight="900">88%</text>
+    </g>
+    <g transform="translate(44 306)">
+      <rect x="0" y="0" width="204" height="54" rx="18" fill="#5046E4"/>
+      <text x="63" y="35" fill="#FFFFFF" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="17" font-weight="900">채팅하기</text>
+    </g>
+  </g>
+</svg>
