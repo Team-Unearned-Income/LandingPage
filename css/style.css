@@ -62,12 +62,11 @@ nav {
 }
 
 .nav-wordmark {
-  color: #020F27;
-  font-size: 22px;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: 0;
-  white-space: nowrap;
+  display: block;
+  width: auto;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .nav-cta {
@@ -1956,7 +1955,7 @@ footer {
 @media (max-width: 768px) {
   nav { padding: 14px 20px; }
   .nav-logo svg { width: 32px; height: 32px; }
-  .nav-wordmark { font-size: 19px; }
+  .nav-wordmark { height: 24px; }
   .nav-cta { padding: 8px 14px; font-size: 13px; flex-shrink: 0; }
   .hero { padding: 56px 20px 48px; }
   .hero h1 {
